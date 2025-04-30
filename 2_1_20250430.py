@@ -1,13 +1,13 @@
-x = [2, 24, 65, 90, 34, 3, 94, 90, 2]
-n = len(x)
+A = [2,4,6,8]
 
-print(range(n))
-print(range(0, n))
+A.insert(1,3) #A[1]に3を挿入
+print(A)
 
-for i in range(n):
-    for j in range (i + 1, n):
-        if x[i] == x[j]:
-            print(f"数字{x[i]}は同じで")
-            print(f"x[{i}]とx[{j}]は等しい")
+A.append(10) #末尾に追加
+print(A)
 
+A.pop()
+print(A) #末尾を消去
 
+A.pop(1)
+print(A) #A[1]を消去
