@@ -11,3 +11,4 @@ b = int(input("b = "))
 
 print("golobal a =", a)
 print(a, "+", b, "=", plus(b))
+print("after function, golobal a =", a)
